@@ -160,14 +160,6 @@ span {
     --size: 200px;
 }
 
-.menu {
-    display: flex;
-    text-align: center;
-    font-family: "font-2", sans-serif;
-    font-size: 2.5rem;
-    text-align: center;
-}
-
 
 /* .header {
     display: flex;
@@ -218,10 +210,17 @@ p {
 }
 
 .lmessage {
+    font-family: "font-2", sans-serif;
+    font-size: 2.2rem;
     display: flex;
     justify-content: center;
     width: 100%;
     margin: 0 auto;
+    text-align: center;
+}
+
+#idmenu {
+    font-family: "font-2", sans-serif;
 }
 
 .header-left-container h3 {
@@ -391,5 +390,8 @@ p {
     }
     header h2 {
         text-align: center;
+    }
+    .lmessage {
+        font-size: 1rem;
     }
 }
