@@ -1,0 +1,92 @@
+ /* le css est  basique, pas de bootstrap ni de flex, tout est fait "à la main" */
+ 
+ * {
+     /* display flex-grow: ; */
+     background-color: rgb(97, 68, 33);
+ }
+ 
+ h1 {
+     text-align: center;
+     color: white;
+ }
+ 
+ h3 {
+     text-align: center;
+     color: rgb(172, 141, 83);
+ }
+ 
+ h4 {
+     text-align: center;
+     color: rgb(172, 141, 83);
+ }
+ 
+ #noir {
+     color: black;
+ }
+ 
+ #blanc {
+     color: white;
+ }
+ 
+ .gni {
+     text-align: center;
+     color: white;
+     border-style: groove;
+     background-color: black;
+ }
+ 
+ .gneu {
+     text-align: center;
+     color: white;
+     border-style: groove;
+     background-color: black;
+ }
+ /* .centrer {
+    margin: 0 auto;
+    width: 200px;
+} */
+ 
+ .item {
+     width: 30px;
+     height: 30px;
+     border-radius: 15px;
+     margin: 2px;
+ }
+ 
+ .blue {
+     background-color: blue;
+ }
+ 
+ .yellow {
+     background-color: yellow;
+ }
+ 
+ .orange {
+     background-color: orange;
+ }
+ 
+ .red {
+     background-color: red;
+ }
+ 
+ .purple {
+     background-color: purple;
+ }
+ 
+ .history,
+ .items,
+ .current-selection {
+     display: flex;
+     margin: auto;
+     width: 85%;
+     border: 3px solid rgb(0, 0, 0);
+     padding: 25px;
+ }
+ 
+ .half {
+     background-color: black;
+ }
+ 
+ .full {
+     background-color: white;
+ }

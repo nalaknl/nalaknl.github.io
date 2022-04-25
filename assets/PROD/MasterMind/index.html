@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MonMASTER</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- une approche différent pour éviter d'écrire trop de code! (me suis basé sur un exemple aprés des heures de recherche) -->
+    <h1 class="gni">=====> MASTERMIND
+        <=====</h1>
+            <h2 id="blanc" class="gneu">Choisissez l'ordre de vos couleurs: </h2>
+            <h3> <em> => Indice : </em> </h3>
+            <h4>pastille <span id=blanc>blanche</span> = couleur et place correcte</h4>
+            <h4>pastille <span id=noir> noire  </span> = couleur correcte seulement</h4>
+            <div class="centrer">
+                <div class="items">
+
+                    <div class="item blue"></div>
+                    <div class="item yellow"></div>
+                    <div class="item orange"></div>
+                    <div class="item red"></div>
+                    <div class="item purple"></div>
+
+
+                </div>
+            </div>
+
+            <h2 class="gneu">votre proposition: </h2>
+            <div class="current-selection"></div>
+
+            <div class="history"></div>
+            <script src="index.js"></script>
+
+</body>
+
+</html>
