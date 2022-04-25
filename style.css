@@ -161,9 +161,10 @@ span {
 }
 
 .menu {
-    font-family: "font-2";
+    font-family: "font-2", sans-serif;
     font-size: 2.5rem;
     color: #f2ebe5;
+    text-align: center;
 }
 
 
