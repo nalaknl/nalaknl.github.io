@@ -161,9 +161,10 @@ span {
 }
 
 .menu {
+    display: flex;
+    text-align: center;
     font-family: "font-2", sans-serif;
     font-size: 2.5rem;
-    color: #f2ebe5;
     text-align: center;
 }
 
@@ -179,7 +180,7 @@ span {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    /* margin: 30px auto; */
+    margin: 30px auto;
 }
 
 .header-left-container {
@@ -212,6 +213,13 @@ p {
 }
 
 #image-moi {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.lmessage {
+    display: flex;
+    justify-content: center;
     width: 100%;
     margin: 0 auto;
 }
