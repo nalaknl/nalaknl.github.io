@@ -343,6 +343,21 @@ p {
     text-decoration: none;
 }
 
+.copydroit {
+    display: flex;
+    background: #021724;
+    height: 100px;
+}
+
+.copytxt {
+    padding-top: 50px;
+}
+
+#rcopy {
+    padding-top: 50px;
+    text-align: center;
+}
+
 
 /*************RESPONSIVE*******************/
 
