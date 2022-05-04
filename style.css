@@ -192,7 +192,7 @@ span {
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     color: #f2ebe5;
 }
 
@@ -206,8 +206,15 @@ p {
 }
 
 #image-moi {
-    width: 80%;
+    display: flex;
+    width: 50%;
     margin: 0 auto;
+    align-items: center;
+}
+
+.stagiaire {
+    display: flex;
+    align-items: center;
 }
 
 .lmessage {
@@ -235,6 +242,7 @@ p {
 }
 
 .infos {
+    margin-top: 70px;
     display: flex;
     background: #072a40;
     border-radius: 10px;
