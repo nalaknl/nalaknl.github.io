@@ -231,8 +231,13 @@ p {
     text-align: center;
 }
 
+.lmessage:hover {
+    transform: scale(1.2);
+}
+
 #idmenu {
     font-family: "font-2", sans-serif;
+    text-decoration: none;
 }
 
 .header-left-container h3 {
