@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+@font-face {
+  font-family: "califr";
+  src: url(./assets/fonts/CALIFI.TTF);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 0.5px solid red; */
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  /* background: #111; */
+  background: url(./assets/images/fondDeCanyon.png) center/cover;
+  min-height: 100vh;
+  /* font-family: "Open Sans", Impact; */
+  font-family: "califr";
+  /* width: 100%; */
+  /* height: 100%; */
+}
+
+/* **************NAVNAVNAV************* */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  top: 0;
+  /* place la nav tout en haut de la page */
+  width: 100%;
+  height: 75px;
+  background-color: rgba(0, 0, 0, 0.584);
+  font-weight: 800;
+
+}
+
+
+
+
+nav,
+a {
+  margin-top: 15px;
+  font-size: 2.5rem;
+  text-decoration: none;
+  letter-spacing: 10px;
+
+}
+
+span {
+  background-image: linear-gradient(to right, rgb(181, 0, 0), rgb(255, 200, 0), rgb(181, 0, 0));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* *************CONTAINER************* */
+
+
+.container-top {
+  display: flex;
+  justify-content: center;
+  padding-top: -20px;
+  /* réduit le padding en haut à 10px */
+  padding-bottom: -20px;
+  /* réduit le padding en bas à 5px */
+}
+
+.golo img {
+  width: 450px;
+  height: 350px;
+
+}
+
+.container-middle {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  /* aligne le container horizontalement et verticalement au centre de la page */
+}
+
+.carousel {
+  position: absolute;
+  top: 50%;
+  /* place le carousel au milieu verticalement */
+  left: 50%;
+  /* place le carousel au milieu horizontalement */
+  transform: translate(-50%, -50%);
+  /* recentre le carousel */
+  width: 500px;
+  height: 290px;
+  /* overflow: hidden; */
+  opacity: 80%;
+
+}
+
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: slide 10s linear infinite;
+  animation-duration: 60s;
+  border-radius: 600px;
+
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+/* ******************FOOTER************* */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  /* place le footer tout en bas de la page */
+  width: 100%;
+  height: 50px;
+  /* étend le footer sur toute la largeur de la page */
+  background-color: rgba(0, 0, 0, 0.384);
+  color: #fff;
+}
+
+.copyright {
+  font-size: 1rem;
+  text-align: center;
+  margin: 10px;
+
+  /* aligne le texte horizontalement au centre de la page */
+}
